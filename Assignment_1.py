@@ -124,7 +124,7 @@ ga_instance = pygad.GA(
     crossover_probability=0.8,
     mutation_type="random",
     mutation_probability=0.1,
-    keep_elitism=3
+    keep_elitism=2
 )
 
 # Run GA
